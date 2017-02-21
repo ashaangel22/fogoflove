@@ -1,0 +1,215 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #ccc;
+  overflow-x: hidden; }
+
+.container {
+  padding: 30px;
+  width: 60%;
+  margin: 0px auto; }
+
+.container2 {
+  padding: 30px;
+  width: 50%;
+  margin: 0px auto; }
+
+a {
+  text-decoration: none;
+  color: #a3a3a3;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.logo {
+  width: 60px; }
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 10vh;
+  margin: 15px 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0; }
+
+h2 {
+  font-weight: 600;
+  font-size: 3vh;
+  margin: 15px 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  float: left;
+  margin: 40px; }
+
+p {
+  color: #777;
+  line-height: 140%; }
+
+strong {
+  font-weight: bold; }
+
+/* 2. Header ================================= */
+#header-nav {
+  position: absolute;
+  top: 0px;
+  height: auto;
+  width: 100%; }
+  #header-nav ul {
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+    color: white;
+    float: right; }
+    #header-nav ul li {
+      font-size: 3vh;
+      display: block;
+      float: right;
+      position: relative;
+      margin: 0;
+      padding: 0; }
+      #header-nav ul li a {
+        color: #fff;
+        border-bottom: none;
+        margin-left: 40px; }
+      #header-nav ul li a:hover {
+        padding-bottom: 2px;
+        border-bottom: 1px solid #fff; }
+
+header {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  background-color: black; }
+  header img {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.3; }
+
+/* 3. Content ================================= */
+.intro {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-color: white;
+  text-align: center; }
+  .intro img {
+    width: 50vw; }
+
+.spacer {
+  min-height: 20px; }
+
+#animate {
+  height: auto;
+  text-align: center;
+  opacity: 0;
+  padding-top: 20px;
+  overflow-y: hidden; }
+
+#animate2 {
+  height: auto;
+  text-align: center;
+  opacity: 0;
+  padding-top: 20px; }
+
+#img {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  padding-top: 90px; }
+
+.design {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  text-align: center; }
+  .design img {
+    width: 50vw; }
+  .design .imgLeft {
+    position: relative;
+    left: -100%; }
+  .design .imgLeft2 {
+    position: relative;
+    left: -100%; }
+  .design .imgLeft3 {
+    position: relative;
+    left: -100%; }
+  .design .imgRight {
+    position: relative;
+    right: -100%; }
+  .design .imgRight2 {
+    position: relative;
+    right: -100%; }
+
+.title {
+  opacity: 0; }
+
+.title2 {
+  opacity: 0; }
+
+.game {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  text-align: center; }
+  .game p {
+    text-align: left;
+    padding-top: 10px; }
+  .game img {
+    width: 50vw; }
+  .game .img1 {
+    transform: rotateX(180deg); }
+  .game .img2 {
+    transform: rotateY(180deg); }
+  .game .img3 {
+    transform: rotateZ(180deg); }
+
+/* 4. Footer ================================= */
+.social {
+  width: 100%;
+  height: auto;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #333;
+  -webkit-font-smoothing: antialiased;
+  text-align: center; }
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #1f1f1f;
+  color: rgba(255, 255, 255, 0.4);
+  -webkit-font-smoothing: antialiased;
+  text-align: center; }
+  footer .container {
+    max-width: 800px; }
+  footer #siteInfo {
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 30px; }
+
+/*# sourceMappingURL=main.css.map */
